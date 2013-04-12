@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+}
+iframe{
+    border: none;
+    height: 500px;
+    width: 330px;
+}
+
+::-webkit-scrollbar {
+    background-color:whitesmoke;
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: rgba(30,30,30,0.4);
+}
+::-webkit-scrollbar-thumb:window-inactive {
+    background: rgba(30,30,30,0.2);
+}

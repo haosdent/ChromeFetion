@@ -1,0 +1,18 @@
+{
+    "name": "ChromeFetion",
+    "version": "1.0",
+    "manifest_version": 2,
+    "description": "A Fetion chrome plugin from third part.",
+    "icons": {
+	"16": "logo.png",
+	"48": "logo.png",
+	"128": "logo.png"
+    },
+    "browser_action": {
+	"default_icon": "logo.png",
+	"default_popup": "popup.html"
+    },
+    "permissions": [
+	"*://*/*"
+    ]
+}
